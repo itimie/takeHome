@@ -1,0 +1,11 @@
+  <div class="digital-clock">
+    <div> {{hour}} : {{minute}} : {{second}} {{ampm}}</div>
+
+    <form [formGroup]="dateForm">
+      <div class="form-group">
+        <input type="time" formControlName="selectDate"/>    
+        <button onclick="">Synchronize</button>  
+      </div>   
+    </form>
+  </div>
+
